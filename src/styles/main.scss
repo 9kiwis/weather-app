@@ -1,0 +1,54 @@
+$light-bg: #ffffff;
+$dark-bg: #1e1e1e;
+$light-text: #000000;
+$dark-text: #ffffff;
+
+.app {
+  min-height: 100vh;
+  transition: all 0.3s ease;
+
+  &.light {
+    background-color: $light-bg;
+    color: $light-text;
+  }
+
+  &.dark {
+    background-color: $dark-bg;
+    color: $dark-text;
+  }
+}
+
+.navbar {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: #eee;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  button {
+    margin-left: auto;
+  }
+}
+
+.page {
+  padding: 2rem;
+}
+
+input, button {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.weather {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
