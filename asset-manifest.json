@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/weather-spa-app/static/css/main.9947852c.css",
+    "main.js": "/weather-spa-app/static/js/main.c4028cd8.js",
+    "index.html": "/weather-spa-app/index.html",
+    "main.9947852c.css.map": "/weather-spa-app/static/css/main.9947852c.css.map",
+    "main.c4028cd8.js.map": "/weather-spa-app/static/js/main.c4028cd8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9947852c.css",
+    "static/js/main.c4028cd8.js"
+  ]
+}
